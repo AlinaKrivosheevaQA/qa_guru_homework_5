@@ -1,6 +1,6 @@
 package guru.qa;
 
-// Сложение целочисленных и дробных типов.
+// Операции с целочисленными и дробными типами.
 public class CalculationWithIntAndDouble {
     public static void main(String[] args){
 

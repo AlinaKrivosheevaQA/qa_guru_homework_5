@@ -25,7 +25,7 @@ public class DataOverflow {
         // тип long (64 бит). Диапазон -9223372036854775808...9223372036854775807 или (-2^(64-1))...((2^63)-1)
         long numberOneLong = -92233720368547758L;
         long numberTwoLong = -9223372036854775808L;
-        long differenceLong = numberOneLong + numberTwoLong;
+        long differenceLong = numberOneLong - numberTwoLong;
         System.out.println("Разница чисел -92233720368547758 и -9223372036854775808 типа long равна " + differenceLong);
 
     }
